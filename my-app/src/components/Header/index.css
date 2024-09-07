@@ -1,0 +1,45 @@
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    margin-top:0px;
+    padding:10px;
+}
+
+.nav-link{
+    color:#000000;
+    text-decoration: none;
+    margin:10px;
+}
+
+.list-element{
+    list-style-type: none;
+}
+
+.main-header-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color:lavender;
+}
+
+.logo{
+    border-radius: 70px;
+    height: 10vh;
+    margin:10px;
+}
+
+.login-button{
+    background-color:#2e8be6;
+    padding:14px;
+    width: 70px;
+    border:none;
+    outline:none;
+    border-radius:10px;
+    cursor:pointer;
+    margin:10px;
+    color:#ffffff;
+    font-size:15px;
+}

@@ -1,0 +1,83 @@
+.login-container{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    background-color: aliceblue;
+}
+
+.form-control{
+    padding:10px;
+    width: 40%;
+    border: none;
+    border-radius:10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#courseId{
+    width: 100%;
+    margin-left:0px;
+    margin-right:45px;
+}
+
+label{
+    margin:5px;
+}
+
+input{
+    margin:5px;
+    padding:10px;
+    border-radius:10px;
+    outline:none;
+    border:2px solid aliceblue;
+}
+
+select{
+    border:2px solid aliceblue;
+    margin:5px;
+    padding:10px;
+    border-radius:10px;
+    outline:none;
+    color:grey;
+}
+
+.selectoption{
+   
+    margin:10px;
+}
+
+.buttonLogin{
+    background-color: #2e8be6;
+    border:none;
+    outline:none;
+    border-radius: 10px;
+    padding:10px;
+    color:#ffffff;
+    margin:10px;
+    margin-top:30px;
+}
+
+.login-heading-element{
+    font-family: "roboto";
+}
+
+span{
+    color:crimson;
+}
+
+.errorMessage{
+    color:crimson;
+    text-align: center;
+}
